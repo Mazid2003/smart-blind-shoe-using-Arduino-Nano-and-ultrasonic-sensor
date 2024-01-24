@@ -1,0 +1,45 @@
+Components required:
+
+   1.Ultrasonic sensor
+   2.Arduino Nano
+   3.Buzzer
+   4.Power input(either from laptop or battery)
+   5.Jumper wires
+
+Code:
+
+int trigPin = 2;
+int echoPin = 3;
+int Buzzer = 7;
+
+
+void setup() {
+  Serial.begin(9600);
+   pinMode(Buzzer, OUTPUT);
+   pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  long duration, distance;
+  digitalWrite(trigPin,HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+  duration=pulseIn(echoPin, HIGH);
+  distance =(duration/1)/29.1;
+   duration=pulseIn(echoPin, LOW);
+  Serial.print(distance);
+  Serial.println("cm");
+  delay(10);
+
+ if((distance<=100)) // Distance between an object and ultrasonic sensor
+  {
+    digitalWrite(Buzzer, HIGH);
+}
+   else if(distance>10)
+ {
+     digitalWrite(Buzzer, LOW);
+   }
+}
