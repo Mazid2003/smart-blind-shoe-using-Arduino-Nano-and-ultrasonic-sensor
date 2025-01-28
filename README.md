@@ -1,1 +1,24 @@
-Smart blind shoe is a project which is useful for the visually impaired people.It can detects the objects with the help of ultrasonic sensor and sends signals to the Arduino nano.The Arduino nano then sends signals to the Buzzer,if the object/obstacle is close to the person then the Buzzer will alerts the person otherwise it remains same.
+👟 **Smart Blind Shoe – Assistive Technology for the Visually Impaired**
+
+A wearable assistive device designed to help visually impaired individuals navigate safely. The Smart Blind Shoe uses an ultrasonic sensor to detect nearby obstacles and alerts the user via a buzzer, ensuring a safer walking experience.
+
+✨ **Features:**
+
+Ultrasonic Sensor detects obstacles in real-time
+
+Arduino Nano processes the sensor data
+
+Buzzer Alert System notifies the user when an obstacle is detected
+
+Compact & Wearable Design for easy integration into shoes
+
+🔧 **Tech Stack:**
+
+Microcontroller: Arduino Nano
+
+Sensors: Ultrasonic Sensor
+
+Alert Mechanism: Buzzer
+
+🚀 This project aims to enhance mobility and independence for visually impaired individuals!
+
