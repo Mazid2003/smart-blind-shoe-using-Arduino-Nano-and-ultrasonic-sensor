@@ -1,4 +1,4 @@
-👟 **Smart Blind Shoe – Assistive Technology for the Visually Impaired**
+# 👟 Smart Blind Shoe – Assistive Technology for the Visually Impaired
 
 A wearable assistive device designed to help visually impaired individuals navigate safely. The Smart Blind Shoe uses an ultrasonic sensor to detect nearby obstacles and alerts the user via a buzzer, ensuring a safer walking experience.
 
