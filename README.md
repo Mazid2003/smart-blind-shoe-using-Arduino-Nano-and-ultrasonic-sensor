@@ -22,3 +22,8 @@ Alert Mechanism: Buzzer
 
 🚀 This project aims to enhance mobility and independence for visually impaired individuals!
 
+📜 License
+
+This project is open-source under the MIT License. Feel free to use and
+modify it! 🚀
+
